@@ -9,11 +9,10 @@ $(document).ready(function() {
     }
   }
 
-  setTimeout(function() {
+  $(window).on('load', function() {
     $(".loader").fadeOut(1000);
     load = false;
-    // $("body").css({"overflow":"scroll"});
-  }, 800);
+  });
 
 
 });
