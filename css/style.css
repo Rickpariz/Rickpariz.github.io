@@ -1,0 +1,45 @@
+.form-group.is-focused .form-control {
+  background-image: linear-gradient(#393b39, #393b39), linear-gradient(#D2D2D2, #D2D2D2);
+}
+.form-group.is-focused .control-label {
+  color: #696464 !important;
+}
+.nav-pills.nav-pills-custom>li.active>a, .nav-pills.nav-pills-custom>li.active>a:focus, .nav-pills.nav-pills-custom>li.active>a:hover {
+  background-color: #696464;
+  box-shadow: 0 16px 26px -10px rgba(76, 175, 80, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(76, 175, 80, 0.2);
+}
+.perfil-content {
+  color: white;
+  padding: 15vh 0 0 0;
+}
+
+.photo-perfil>.img-responsive {
+  display: inline-block;
+}
+
+.perfil-content .title {
+  color: white !important;
+  font-weight: 700;
+}
+
+.perfil-content .category {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #9A9A9A;
+}
+
+.links-perfil{
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: -36px;
+  text-align: center;
+}
+
+.links-perfil .btn{
+  background: #9A9A9A !important;
+}
+
+.main > .container{
+  padding-top: 35px;
+}
