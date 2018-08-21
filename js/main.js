@@ -1,9 +1,5 @@
 $(document).ready(function(){
   console.log("foi");
-  // material kit
-  // Init Material scripts for buttons ripples, inputs animations etc, more info on the next link https://github.com/FezVrasta/bootstrap-material-design#materialjs
-  $.material.init();
-
   // $("#form").on("submit", function(e){
   //   e.preventDefault();
   //   $("#sub").attr("disabled", true);

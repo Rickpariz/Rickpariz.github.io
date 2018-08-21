@@ -1,0 +1,171 @@
+.transition path {
+  transition: all 1s ease;
+}
+
+.sublime, .css, .html, .java {
+  position: absolute;
+}
+
+.sublime {
+  top: 0;
+  margin-top: 2%;
+}
+
+.css {
+  top: 0;
+  right: 0;
+  margin-top: 2%;
+}
+
+.html {
+  bottom: 0;
+  right: 0;
+  margin-bottom: 2%;
+}
+
+.java {
+  bottom: 0;
+  left: 0;
+  margin-bottom: 2%;
+}
+
+.perfil-container:hover .svg{
+  fill: orange;
+}
+
+/* HTML */
+.html path:nth-child(1) {
+  fill: #c8cbcc !important;
+}
+
+.html path:nth-child(2) {
+  fill: #c8cbcc !important;
+}
+
+.html path:nth-child(3), .html path:nth-child(4)  {
+  fill: #202626 !important;
+}
+
+.perfil-container:hover .html path:nth-child(1){
+  fill: #E65100 !important;
+}
+
+.perfil-container:hover .html path:nth-child(2){
+  fill: #FF6D00 !important;
+}
+
+.perfil-container:hover .html path:nth-child(3){
+  fill: #FFFFFF !important;
+}
+
+.perfil-container:hover .html path:nth-child(4){
+  fill: #EEEEEE !important;
+}
+
+/* Sublime */
+
+.sublime path:nth-child(1) {
+  fill: #c8cbcc !important;
+}
+
+.sublime path:nth-child(2) {
+  fill: #202626 !important;
+}
+
+.sublime path:nth-child(3){
+  fill: #c8cbcc !important;
+}
+
+.sublime path:nth-child(4)  {
+  fill: #c8cbcc !important;
+}
+
+.sublime path:nth-child(5)  {
+  fill: #202626 !important;
+}
+
+.sublime path:nth-child(6)  {
+  fill: #202626 !important;
+}
+
+.perfil-container:hover .sublime path:nth-child(1){
+  fill: #CFD8DC !important;
+}
+
+.perfil-container:hover .sublime path:nth-child(2){
+  fill: #263238 !important;
+}
+
+.perfil-container:hover .sublime path:nth-child(3){
+  fill: #546E7A !important;
+}
+
+.perfil-container:hover .sublime path:nth-child(4){
+  fill: #455A64 !important;
+}
+
+.perfil-container:hover .sublime path:nth-child(5){
+  fill: #FFC107 !important;
+}
+
+.perfil-container:hover .sublime path:nth-child(6){
+  fill: #FFB300 !important;
+}
+
+/* CSS */
+
+.css path:nth-child(1) {
+  fill: #c8cbcc !important;
+}
+
+.css path:nth-child(2) {
+  fill: #c8cbcc !important;
+}
+
+.css path:nth-child(3){
+  fill: #263238 !important;
+}
+
+.css path:nth-child(4)  {
+  fill: #263238 !important;
+}
+
+
+.perfil-container:hover .css path:nth-child(1){
+  fill: #0277BD !important;
+}
+
+.perfil-container:hover .css path:nth-child(2){
+  fill: #039BE5 !important;
+}
+
+.perfil-container:hover .css path:nth-child(3){
+  fill: #FFFFFF !important;
+}
+.perfil-container:hover .css path:nth-child(4){
+  fill: #EEEEEE !important;
+}
+
+
+/* Java */
+
+.java path {
+  fill: #202626 !important;
+}
+
+.perfil-container:hover .java path:nth-child(1){
+  fill: #F44336 !important;
+}
+
+.perfil-container:hover .java path:nth-child(2){
+  fill: #F44336 !important;
+}
+
+.perfil-container:hover .java path:nth-child(3),
+ .perfil-container:hover .java path:nth-child(4),
+  .perfil-container:hover .java path:nth-child(5),
+   .perfil-container:hover .java path:nth-child(6),
+    .perfil-container:hover .java path:nth-child(7),
+     .perfil-container:hover .java path:nth-child(8) {
+  fill: #1565C0 !important;
+}
