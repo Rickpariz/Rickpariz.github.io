@@ -80,21 +80,21 @@ body {
 
 @media (max-width: 985px) {
   .estrutura .perfil-container {
-    left: -100%;
-    transition: all ease .35s;
-    width: 40%;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    padding-top: 10vh;
+    height: 90vh;
   }
+
+  .perfil-title {
+    margin-top: 0;
+  }
+
   .estrutura .content {
     padding-left: 0px;
   }
   .perfil-container-open {
     display: inline-block;
-  }
-}
-
-@media (max-width: 768px) {
-  .estrutura .perfil-container {
-    transition: all ease .35s;
-    width: 100%;
   }
 }
