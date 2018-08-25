@@ -10,7 +10,8 @@ $(document).ready(function() {
       method: "POST",
       data: {message: message, name: name, email: email, _subject: "Portifolio"},
       dataType: "json",
-      complete: function(){
+      complete: function(response){
+        console.log(response);
         iziToast.success({
           title: 'Ok',
           message: "Mensagem enviada, aguarde a resposta",
