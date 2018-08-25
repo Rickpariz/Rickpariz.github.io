@@ -8,6 +8,7 @@
 
 .sublime {
   top: 0;
+  margin-left: -2%;
   margin-top: 2%;
 }
 
@@ -29,7 +30,7 @@
   margin-bottom: 2%;
 }
 
-.perfil-container:hover .svg{
+.profile-container:hover .svg{
   fill: orange;
 }
 
@@ -46,19 +47,19 @@
   fill: #202626 !important;
 }
 
-.perfil-container:hover .html path:nth-child(1){
+.profile-container:hover .html path:nth-child(1){
   fill: #E65100 !important;
 }
 
-.perfil-container:hover .html path:nth-child(2){
+.profile-container:hover .html path:nth-child(2){
   fill: #FF6D00 !important;
 }
 
-.perfil-container:hover .html path:nth-child(3){
+.profile-container:hover .html path:nth-child(3){
   fill: #FFFFFF !important;
 }
 
-.perfil-container:hover .html path:nth-child(4){
+.profile-container:hover .html path:nth-child(4){
   fill: #EEEEEE !important;
 }
 
@@ -88,27 +89,27 @@
   fill: #202626 !important;
 }
 
-.perfil-container:hover .sublime path:nth-child(1){
+.profile-container:hover .sublime path:nth-child(1){
   fill: #CFD8DC !important;
 }
 
-.perfil-container:hover .sublime path:nth-child(2){
+.profile-container:hover .sublime path:nth-child(2){
   fill: #263238 !important;
 }
 
-.perfil-container:hover .sublime path:nth-child(3){
+.profile-container:hover .sublime path:nth-child(3){
   fill: #546E7A !important;
 }
 
-.perfil-container:hover .sublime path:nth-child(4){
+.profile-container:hover .sublime path:nth-child(4){
   fill: #455A64 !important;
 }
 
-.perfil-container:hover .sublime path:nth-child(5){
+.profile-container:hover .sublime path:nth-child(5){
   fill: #FFC107 !important;
 }
 
-.perfil-container:hover .sublime path:nth-child(6){
+.profile-container:hover .sublime path:nth-child(6){
   fill: #FFB300 !important;
 }
 
@@ -131,18 +132,18 @@
 }
 
 
-.perfil-container:hover .css path:nth-child(1){
+.profile-container:hover .css path:nth-child(1){
   fill: #0277BD !important;
 }
 
-.perfil-container:hover .css path:nth-child(2){
+.profile-container:hover .css path:nth-child(2){
   fill: #039BE5 !important;
 }
 
-.perfil-container:hover .css path:nth-child(3){
+.profile-container:hover .css path:nth-child(3){
   fill: #FFFFFF !important;
 }
-.perfil-container:hover .css path:nth-child(4){
+.profile-container:hover .css path:nth-child(4){
   fill: #EEEEEE !important;
 }
 
@@ -153,19 +154,19 @@
   fill: #202626 !important;
 }
 
-.perfil-container:hover .java path:nth-child(1){
+.profile-container:hover .java path:nth-child(1){
   fill: #F44336 !important;
 }
 
-.perfil-container:hover .java path:nth-child(2){
+.profile-container:hover .java path:nth-child(2){
   fill: #F44336 !important;
 }
 
-.perfil-container:hover .java path:nth-child(3),
- .perfil-container:hover .java path:nth-child(4),
-  .perfil-container:hover .java path:nth-child(5),
-   .perfil-container:hover .java path:nth-child(6),
-    .perfil-container:hover .java path:nth-child(7),
-     .perfil-container:hover .java path:nth-child(8) {
+.profile-container:hover .java path:nth-child(3),
+ .profile-container:hover .java path:nth-child(4),
+  .profile-container:hover .java path:nth-child(5),
+   .profile-container:hover .java path:nth-child(6),
+    .profile-container:hover .java path:nth-child(7),
+     .profile-container:hover .java path:nth-child(8) {
   fill: #1565C0 !important;
 }
