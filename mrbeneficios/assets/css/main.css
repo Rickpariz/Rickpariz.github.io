@@ -151,6 +151,8 @@ hr {
   border-top-left-radius: 25px;
   border-bottom-right-radius: 25px;
   transition: all 0.5s;
+  padding-bottom: 0px;
+  height: 100%;
 }
 
 .service-box p {
